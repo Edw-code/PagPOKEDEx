@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family:themillon;
+    src: url(letra.1.ttf);
+}
+
+
 body{
-    background: linear-gradient(225deg, rgb(177, 72, 72), rgb(170, 46, 46), rgb(204, 37, 37));
+    background-image: url("pokeball-5584675.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
+
 h2{
-    font-family: 'Oswald', sans-serif;
-    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+
 }
-header{
-    background: rgb(226, 22, 39);
+header{ 
+    font-family:themillon;
+    font-size: 5em;
+    background-color: white;
+    
 }
 header .logo{
     margin: 0;
